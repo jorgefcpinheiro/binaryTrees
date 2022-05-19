@@ -128,4 +128,5 @@ STATUS createNewBTNode(BTREE_NODE **pNew, void *pData)
 int main (void) {
     BTREE *pBT;
     initBTree(pBT);
+    printIntBTree(*pBT);
 }
